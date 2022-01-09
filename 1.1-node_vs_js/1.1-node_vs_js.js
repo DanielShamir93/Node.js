@@ -1,5 +1,9 @@
-// node runs on a server - not in a browser
-// the console is the terminal window
-// we use global object instead of window object
-// has common core modules
-// we use commonJS modules instead of ES6 modules
+// What NodeJs has and javascript does not?
+// 01. Has global object 
+// 02. Has Process
+// 03. Access file system 
+
+// What Javascript has and Nodejs does not?
+// 01. Has windows object
+// 02. Access to document
+// 03. include visualization
