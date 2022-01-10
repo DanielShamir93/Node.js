@@ -15,7 +15,7 @@
 // is that require will automatically scan node_modules to find modules, but import, which comes from ES6, won't.
 
 // 2. How can you enable using the import syntax using node js
-// a. you should use .mjs to run the import. exmp:
+// a. you should use .mjs to run the import. example:
 // import fs from "fs";
 // fs.writeFileSync("notes.txt", "This file was created by Node.js ");
 
