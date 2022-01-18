@@ -1,10 +1,10 @@
-const {model, Schema} = require('mongoose');
+const { model, Schema } = require("mongoose");
 
 const commentSchema = new Schema({
   content: {
     type: String,
     required: true,
-  }
+  },
 });
 
 const postSchema = new Schema({
@@ -12,11 +12,9 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
-  comment: [commentSchema]
+  comment: [commentSchema],
 });
-
-
 
 const Post = model("posts", postSchema);
 
-module.exports = {Post, postSchema}
+module.exports = { Post, postSchema };

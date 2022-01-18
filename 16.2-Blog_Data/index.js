@@ -12,7 +12,7 @@ mongoose.connect(
 
 const createUsers = async () => {
   try {
-    // console.log(usersArray);
+    console.log(User);
     const users = await User.create(usersArray);
     console.log(users)
   } catch (err) {
