@@ -11,4 +11,4 @@ const postSchema = new Schema({
   comment: commentSchema
 })
 
-module.exports = model("User", postSchema);
+module.exports = model("Post", postSchema);

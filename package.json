@@ -2,7 +2,6 @@
   "name": "node",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +18,14 @@
   "homepage": "https://github.com/DanielShamir93/Node.js#readme",
   "dependencies": {
     "axios": "^0.24.0",
+    "keys-to-password": "^1.1.4",
     "mongoose": "^6.1.7",
     "node-fetch": "^3.1.0",
     "request": "^2.88.2",
     "validator": "^13.7.0"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
