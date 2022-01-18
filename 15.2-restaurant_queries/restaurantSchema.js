@@ -8,11 +8,11 @@ const addressSchema = new Schema({
 
 const restaurantSchema = new Schema({
   name: String,
-  rating: Number,
   address: addressSchema,
   cuisineType: String,
   isKosher: Boolean,
   reviews: [[String, Number]]
 })
+
 
 module.exports = model("Restaurant", restaurantSchema);
